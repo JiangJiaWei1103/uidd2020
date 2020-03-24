@@ -7,7 +7,8 @@ $(function() {   // run inner statements once the page DOM is ready (shorthand)
   var $gateSideBlock = $("#gate-side-info")   // gate side detailed page for more information
   var $gateTitle = $("#gate-side-title")   // welcome title at gate side
   var $cityTitle = $("#city-side-title")   // welcome title at city side
-  var $listItems = document.body.querySelectorAll(".side-list-container li a")   // all icons in side list 
+  var $listItems = document.body.querySelectorAll(".side-list-container li a")   // all items in side list 
+  var $floorIcons = document.body.querySelectorAll(".side-floor img")   // floor icons (show when corresponding item clicked)
   var $homeFooter = $("#home-footer")   // footer at home page
   var $sideFooter = $(".side-footer")   // footer at side page
   var $cityInfoBtn = $("#city-info-button")   // help button for city side
@@ -75,25 +76,22 @@ $(function() {   // run inner statements once the page DOM is ready (shorthand)
     }
   })
  
-
-
-  var $floorIcons = document.body.querySelectorAll(".side-floor img")
-
-  // icon hover animation (when mouseenter, icon will scale up; then, scale back to normal when mouseleave)
+  // item hover and click animation
   $listItems.forEach((item) => {
-    item.addEventListener("mouseenter", function() { 
+    item.addEventListener("mouseenter", function() {   // mouseenter, icon scales up
       this.parentElement.style.transform = "scale(1.2)"
     })
-    item.addEventListener("mouseleave", function() { 
+    item.addEventListener("mouseleave", function() {   // mouseleave, icon scales back to normal
       this.parentElement.style.transform = "scale(1)"
     })
-    item.addEventListener("click", function() {
-      let imgUrl = $(this).css("background-image")
+    item.addEventListener("click", function() {   // click, item clicked and corresponding icon shown on floor map
+      let imgUrl = $(this).css("background-image")   // image url of clicked list item 
+      // get rid of some string pattern to let url matching work
       imgUrl = imgUrl.replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "")
       imgUrl = imgUrl.replace("https://luffy.ee.ncku.edu.tw/~waynechuang97/HW/HW1/", "")
-      console.log(imgUrl)
+      imgUrl = imgUrl.replace("https://jiangjiawei1103.github.io/uidd2020/", "")
       $floorIcons.forEach((icon) => {
-        if($(icon).attr("src") == imgUrl) {
+        if($(icon).attr("src") == imgUrl) {   // url matches, show icon on the floor map
           $(icon).fadeIn(1000)
         }
         else {
