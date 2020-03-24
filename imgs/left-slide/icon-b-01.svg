@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="&#x5716;&#x5C64;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="73.643px" height="73.645px" viewBox="0 0 73.643 73.645" style="enable-background:new 0 0 73.643 73.645;"
+	 xml:space="preserve">
+<g>
+	<path style="fill:#DB6A4D;" d="M73.643,65.352c0,4.578-3.715,8.293-8.293,8.293H8.289C3.711,73.645,0,69.93,0,65.352V8.295
+		C0,3.719,3.711,0,8.289,0H65.35c4.578,0,8.293,3.719,8.293,8.295V65.352z"/>
+	<path style="fill:#FFFFFF;" d="M44.92,15.936H28.266c-4.355,0-7.889,3.535-7.889,7.891v25.311c0,4.354,3.533,7.887,7.889,7.887
+		H44.92c4.355,0,7.891-3.533,7.891-7.887V23.826C52.811,19.471,49.275,15.936,44.92,15.936z M26.006,50.107
+		c-1.295,0-2.344-1.047-2.344-2.344c0-1.291,1.049-2.336,2.344-2.336s2.34,1.045,2.34,2.336
+		C28.346,49.061,27.301,50.107,26.006,50.107z M42.51,41.275H30.678c-2.18,0-3.098-1.799-3.098-4.191l-0.848-13.75h19.719
+		l-0.627,13.75C45.824,39.477,44.689,41.275,42.51,41.275z M47.697,50.107c-1.295,0-2.34-1.047-2.34-2.344
+		c0-1.291,1.045-2.336,2.34-2.336s2.342,1.045,2.342,2.336C50.039,49.061,48.992,50.107,47.697,50.107z"/>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="22.117" y="9.723" width="29.215" height="4.189"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<path style="clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;" d="M50.189,13.912
+				c0,1.592-6.084,2.873-13.598,2.873c-7.516,0-13.6-1.281-13.6-2.873c0-1.588,6.084-2.879,13.6-2.879
+				C44.105,11.033,50.189,12.324,50.189,13.912z"/>
+		</g>
+		<rect x="28.488" y="11.574" style="fill:#FFFFFF;" width="0.863" height="5.131"/>
+		<rect x="44.018" y="11.574" style="fill:#FFFFFF;" width="0.861" height="5.131"/>
+	</g>
+	<circle style="fill:#FFFFFF;" cx="33.507" cy="24.951" r="1.749"/>
+	<circle style="fill:#FFFFFF;" cx="40.133" cy="24.951" r="1.75"/>
+	<g>
+		<polygon style="fill:#FFFFFF;" points="22.574,66.105 19.887,66.105 27.063,56.24 28.766,56.24 		"/>
+		<polygon style="fill:#FFFFFF;" points="51.074,66.105 53.756,66.105 46.582,56.24 44.879,56.24 		"/>
+		<rect x="25.668" y="58.16" style="fill:#FFFFFF;" width="22.025" height="2.563"/>
+	</g>
+</g>
+</svg>
