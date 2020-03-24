@@ -91,6 +91,7 @@ $(function() {   // run inner statements once the page DOM is ready (shorthand)
       let imgUrl = $(this).css("background-image")
       imgUrl = imgUrl.replace("url(", "").replace(")", "").replace("\"", "").replace("\"", "")
       imgUrl = imgUrl.replace("https://luffy.ee.ncku.edu.tw/~waynechuang97/HW/HW1/", "")
+      console.log(imgUrl)
       $floorIcons.forEach((icon) => {
         if($(icon).attr("src") == imgUrl) {
           $(icon).fadeIn(1000)
