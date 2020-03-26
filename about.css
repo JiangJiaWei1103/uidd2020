@@ -91,6 +91,11 @@ button[type=button]:after {   /* pseudo element  */
   color: #ffffff;
 }
 
+button[type=button]:hover {
+  color: #ffffff;
+  filter: brightness(1);
+}
+
 .horizontal {
   display: flex;
   justify-content: space-around;
